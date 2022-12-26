@@ -13,9 +13,9 @@ public interface CrudService<
         D extends Dto
         > {
 
-    boolean add(AddDto dto);
+    boolean add(A dto);
 
-    boolean edit(Long id, AddDto dto);
+    boolean edit(Long id, A dto);
 
     void delete(Long id);
 
